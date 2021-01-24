@@ -17,6 +17,15 @@ func main() {
 		fmt.Println("I am sorry. I can not find the location of that city. Please try again")
 	}
 
+	switch i := 10; true {
+	case i > 0:
+		fmt.Println("Positive")
+	case i < 0:
+		fmt.Println("Negative")
+	default:
+		fmt.Println("Neither negative nor positive. It is 0.")
+	}
+
 	//Behind the scenes, Go converts switch to if statements.
 
 	//RULES
