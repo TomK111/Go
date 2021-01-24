@@ -1,0 +1,10 @@
+{
+    "go.alternateTools": {
+        "go.lintOnSave": "package",
+        "go.vetOnSave": "package",
+        "go.vetFlags": [
+            "-all",
+            "-shadow"
+        ]
+    }
+}
