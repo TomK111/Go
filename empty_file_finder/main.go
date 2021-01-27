@@ -26,7 +26,7 @@ func main() {
 			total += len(file.Name()) + 1
 		}
 	}
-	fmt.Printf("Total Required Space: %d bytes.\n", total)
+	fmt.Printf("\nTotal Required Space: %d bytes.\n", total)
 
 	names := make([]byte, 0, total)
 
@@ -45,5 +45,5 @@ func main() {
 		return
 	}
 
-	fmt.Printf("%s", names)
+	fmt.Printf("\n%s\n", names)
 }
