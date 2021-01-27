@@ -1,0 +1,2 @@
+This is actually not an empty file.
+This contains some bytes and when the file finder applications finds this, it will return the size of this.
