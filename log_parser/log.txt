@@ -1,0 +1,4 @@
+www.google.com 10
+www.bing.com 20
+www.yahoo.com 45
+www.github.com 84
